@@ -1,6 +1,6 @@
 {
   "name": "jsincss-string-match",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A string matching plugin for jsincss",
   "main": "index.js",
   "module": "index.vanilla.js",
