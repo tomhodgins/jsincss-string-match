@@ -1,4 +1,4 @@
-module.exports = (selector, string, rule) => {
+function contains(selector, string, rule) {
 
   return Array.from(document.querySelectorAll(selector))
 
