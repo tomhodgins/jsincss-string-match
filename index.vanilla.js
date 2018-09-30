@@ -10,8 +10,6 @@ export default (selector, string, rule) => {
 
       tag.setAttribute(`data-contains-${attr}`, count)
       styles += `[data-contains-${attr}="${count}"] { ${rule} }\n`
-      count++
-
       return styles
 
     }, '')
